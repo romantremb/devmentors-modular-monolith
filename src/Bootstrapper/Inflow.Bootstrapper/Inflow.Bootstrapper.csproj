@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Customers\Inflow.Modules.Customers.Api\Inflow.Modules.Customers.Api.csproj" />
     <ProjectReference Include="..\..\Shared\Infow.Shared.Abstractions\Infow.Shared.Abstractions.csproj" />
     <ProjectReference Include="..\..\Shared\Infow.Shared.Infrastructure\Infow.Shared.Infrastructure.csproj" />
   </ItemGroup>
