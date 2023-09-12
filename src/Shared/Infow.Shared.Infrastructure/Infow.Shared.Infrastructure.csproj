@@ -14,4 +14,14 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="Inflow.Bootstrapper" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+  </ItemGroup>
+
 </Project>
